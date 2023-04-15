@@ -1,0 +1,7 @@
+T=1
+T1 = 9
+T2 = 8
+u_point = 0
+C = [1 , 0];
+B = transpose([0, a1+2*a2*u_point+ 3*a3*u_point.^2 + 4*a4*u_point.^3]);
+A = [-T*(T1+T2)/(T1*T2)+1,T;T,-T/(T1*T2)]
